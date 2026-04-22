@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #3f5c8a, #6c8cd5);
+}
+
+/* Main layout */
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left side */
+.left-panel {
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-panel h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.left-panel p {
+    font-size: 18px;
+}
+
+/* Right side */
+.right-panel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.login-card {
+    background: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c9302c;
+}
+
+/* Error */
+.error {
+    color: red;
+    text-align: center;
+}
+
+/* Bottom text */
+.bottom-text {
+    text-align: center;
+    margin-top: 15px;
+}
